@@ -9,6 +9,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HOANGDINHTUNG/session-03-foodx
+          uri: file:///D:/Documents/MICROSERVICE%20IN%20ACTION/Session03/session-03-foodx-microservice/foodx-config-repo
           clone-on-start: true
           default-label: master

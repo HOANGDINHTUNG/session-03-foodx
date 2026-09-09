@@ -10,4 +10,9 @@ public class OrderServiceApplication {
         SpringApplication.run(OrderServiceApplication.class, args);
     }
 
+    @org.springframework.context.annotation.Bean
+    @org.springframework.cloud.client.loadbalancer.LoadBalanced
+    public org.springframework.web.client.RestTemplate restTemplate() {
+        return new org.springframework.web.client.RestTemplate();
+    }
 }
