@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/restaurant_db
+    url: jdbc:mysql://localhost:3306/restaurant_db?createDatabaseIfNotExist=true
     username: root
     password: 09042006ha$$Tung
 
